@@ -29,8 +29,8 @@ This project implements a multi-agent system using Google's Gemini API to automa
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/multi-agent-software-dev.git
-   cd multi-agent-software-dev
+   git clone https://github.com/egmndrk/Collaborative-Agent-Development-Framework.git
+   cd Collaborative-Agent-Development-Framework
    ```
 
 2. Install the required packages:
@@ -40,7 +40,7 @@ This project implements a multi-agent system using Google's Gemini API to automa
 
 3. Create a `.env` file in the project root directory with your Google Gemini API key:
    ```
-   GOOGLE_GEMINI_PRO_API_KEY=your_api_key_here
+   GOOGLE_API_KEY=your_api_key_here
    ```
 
 ## Usage
@@ -48,7 +48,7 @@ This project implements a multi-agent system using Google's Gemini API to automa
 Run the main script to start the software development process:
 
 ```
-python hello.py
+python CollaborativeAgentDevFramework.py
 ```
 
 The system will:
@@ -81,11 +81,3 @@ You can modify the system by:
 - Changing the maximum number of interactions in the requirements gathering phase
 - Modifying the number of testing and revision iterations
 - Using different Gemini models for specific agents
-
-## License
-
-[MIT License](LICENSE)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
